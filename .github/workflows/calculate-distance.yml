@@ -1,4 +1,4 @@
-name: "deno test"
+name: "calculate distance"
 on:
   issue_comment:
     types: [created]
