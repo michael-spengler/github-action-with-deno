@@ -1,4 +1,4 @@
-name: "create jar file"
+name: "calculate distance"
 on:
   issue_comment:
     types: [created]
@@ -11,4 +11,4 @@ jobs:
          deno-version: v1.x
       - run: |
           deno --version
-          ./example-script.bash
+          deno run --allow-net https://deno.land/x/distancecalculator/test-it.ts
